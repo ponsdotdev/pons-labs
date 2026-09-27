@@ -22,15 +22,15 @@
 | Category | Liquidity migration coordination |
 | Primary users | Solana projects, token holders, liquidity providers, migration operators |
 | Core utility | Publish migration campaigns with a project bond; coordinate commitments and settlement |
-| Token standard, supply, decimals | Not deployed; supply and decimals have not been set |
+| Token standard, supply, decimals | SPL token; supply and decimals are not documented here |
 | V2 Official Migr Protocol mint address | HNazMWySREpLBoyEdsXPPzvvc4eZ6avQDwqBko3vpump |
 | V2 program ID | Standard SPL Token Program: `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` |
-| V2 environment | Solana Mainnet (planned V1 test environment) |
-| V2 explorer links | [Devnet Token Program](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA?cluster=devnet); mint explorer link becomes available when the mint exists |
-| Image | `migr.jpg` — place next to this Markdown file |
+| V2 environment | Solana Mainnet; the separate planned V1 test uses Devnet |
+| V2 explorer links | [V2 mint](https://explorer.solana.com/address/HNazMWySREpLBoyEdsXPPzvvc4eZ6avQDwqBko3vpump); [SPL Token Program](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA) |
+| Image | [`migr.png`](./migr.png) |
 | Status | Concept and proposed V1 scope; no deployed contract is asserted here |
 
-> **Contract verification:** The listed SPL Token Program is Solana infrastructure, not a deployed MIGR application. Its identifier does not implement campaigns, vaults or migration. The $MIGR mint has not been supplied. A Solana mint address identifies the specific token, while a dedicated application program would require its own deployment and separate program ID. [Solana program reference](https://solana.com/docs/references/terminology).
+> **Contract verification:** The listed SPL Token Program is Solana infrastructure, not a deployed MIGR application. Its identifier does not implement campaigns, vaults or migration. The V2 mint address identifies the token only; a dedicated application program would require its own deployment and separate program ID. The planned V1 test mint and campaign program have not been deployed. [Solana program reference](https://solana.com/docs/references/terminology).
 
 ---
 
