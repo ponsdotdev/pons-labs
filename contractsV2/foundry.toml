@@ -1,0 +1,7 @@
+[profile.default]
+src = "src/v2/testing"
+test = "test"
+out = "out"
+cache_path = "cache"
+solc_version = "0.8.33"
+
