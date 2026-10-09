@@ -53,7 +53,7 @@ Pons Beta is the invite-only beta of Pons, a noncustodial token launchpad on Rob
 | **Custody** | Noncustodial. Your wallet signs every launch and every trade |
 | **Built by** | Pons Labs, LLC |
 | **Contact** | contact@ponsfamily.com |
-| **Social** | [X @ponsdotfamily](https://x.com/ponsdotfamily) · [GitHub pons-labs](https://github.com/ponsdotfamily/ponsdotfamily) |
+| **Social** | [X @ponsdotfamily](https://x.com/ponsdotfamily) · [GitHub pons-labs](https://github.com/ponsdotdev/pons-labs) |
 
 ---
 
@@ -146,7 +146,7 @@ Three link columns, then copyright, social icons and a disclaimer.
 | [Create a token](https://beta.ponsfamily.com/launchpad/create) | [Explorer](https://robin.etherscan.io) | [Privacy Policy](https://beta.ponsfamily.com/privacy) |
 | [PLP](https://beta.ponsfamily.com/plp) | [PONS token](https://beta.ponsfamily.com/launchpad/0x39dBED3a2bd333467115dE45665cC57F813C4571) | [MiCA Whitepaper](https://beta.ponsfamily.com/mica) |
 | [Analytics](https://beta.ponsfamily.com/analytics) | [Updates on X](https://x.com/ponsdotfamily) | [Takedown Requests](https://beta.ponsfamily.com/takedown) |
-| [Profile](https://beta.ponsfamily.com/profile) | [GitHub](https://github.com/pons-labs) | [Law Enforcement Requests](https://beta.ponsfamily.com/law-enforcement) |
+| [Profile](https://beta.ponsfamily.com/profile) | [GitHub](https://github.com/ponsdotdev/pons-labs) | [Law Enforcement Requests](https://beta.ponsfamily.com/law-enforcement) |
 
 Below the columns:
 
