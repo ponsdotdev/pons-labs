@@ -67,7 +67,7 @@ Website: [ponsfamily.com](https://ponsfamily.com) · Twitter/X: [@ponsdotfamily]
 | Fees | V3 pool fee tier | Curve fee + hook fee, split protocol / creator / buyback |
 | Creator revenue | Trading fees on the locked position | Quote-denominated fee share + optional creator tax, from the first trade |
 | Buybacks | — | `PonsV2BuybackVault`, five-year linear vest instead of a burn |
-| Anti-snipe | Same-block block, max wallet, cumulative buy cap | Curve price impact + reserved pool allocation |
+| Anti-snipe | Same-block block, max wallet, cumulative buy cap | Launch-time tax that decays exponentially to zero; creator-declared wallets can be exempt |
 | Dev buy | Optional, atomic in `launchToken` | Anyone (deployer included) can buy from the curve immediately |
 | Graduation | Status derived from locked position principal | Two-phase, permissionless `graduate` + retryable `createGraduatedPool` |
 
@@ -114,6 +114,7 @@ V2 replaces day-one concentrated liquidity with a fair-launch curve. Every launc
 **Key features**
 
 - Constant-product bonding curve per launch, with a phantom quote reserve setting the opening price
+- Launch-time snipe tax, snapshotted per launch and decaying exponentially to zero; sells are never taxed
 - Quote-denominated fees from the first trade: fees are always charged on the quote leg, never in the memecoin
 - Identical fee logic before and after graduation, read live from a shared `IPonsV2FeePolicy` and snapshotted per launch
 - Optional creator tax (capped) paid entirely to the creator, on top of the protocol / creator / buyback fee split
